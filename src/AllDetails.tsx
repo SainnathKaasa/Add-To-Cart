@@ -27,6 +27,7 @@ const Productids:React.FC<{ItemId : ProductId}> = (props) => {
         return(
             <>
             <table>
+                
                 <tbody className="detailsofblock" >
                     <tr className="detailsofblockChild">
                         <td>{title}</td>
