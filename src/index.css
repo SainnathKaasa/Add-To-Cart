@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+table{
+    border: 4px solid ;
+    border-collapse: collapse;
+    width: 90%;
+   margin: 10px;
+   padding: 10px;
+   background-color: aquamarine;   
+    
+}
+table:nth-child(even){
+    background-color: bisque;
+}
+img{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+}
+
+.picture{
+    width: 30%;
+}
+button{
+    padding: 10px 30px;
+    width: 83.4%;
+    background-color: lightpink;
+}
+.button1{
+    width: 50%;
+    padding: 40px;
+   
+}
+.button2{
+    width: 40%;
+    padding: 30px;
+}
+.Disp{
+    width: 20%;
+    padding: 10px;
+    background-color: aqua;
+    
+}
+.Disp:nth-child(even){
+    background-color: bisque;
+}
+.DispChild{
+    padding: 10px;
+}
+.DispChild1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Disp>img{
+    height: 200px;
+    width: 400px;
+}
+.Homepage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+.Homepage>button{
+    padding: 10px;
+    border: 2px solid ;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.Homepage>button:hover{
+    background-color: black;
+    color: white;
+}
+.buttonCart{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buttonCart>button{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.buttonCart>button:hover{
+    background-color: black;
+    color: white;
+}
